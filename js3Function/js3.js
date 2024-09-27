@@ -5,6 +5,10 @@ function AreaCalculator(length, width){
     console.log(area)
 }
 
+function Rand(min, max){
+    return min + Math.random() * (max - min)
+}
+
 //1.1 FUNCTION DECLARATION with COMMON value
 
 function sidesSum(length, width = 10){
@@ -30,6 +34,7 @@ const POW = (num1, num2) => {
 
 //#1
 AreaCalculator(10, 12)
+console.log(Rand(2, 10))
 
 //#1.1
 sidesSum(18)

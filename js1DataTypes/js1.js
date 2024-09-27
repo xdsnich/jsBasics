@@ -40,5 +40,23 @@ console.log(fullName)
 
 const secondName = `Mr. ${name} `      //interpolation
 
+const user = {
+    name,
+    ['a' + 'g' +'e']: 19,
 
+}
 
+console.log(user['age'], user.age)
+
+delete user.age
+
+user.age = 18
+console.log(user.age)
+
+ if('age' in user){
+    console.log(user.age)
+ }
+
+ if(Object.hasOwn(user, name)){
+    console.log(user.name)
+ }

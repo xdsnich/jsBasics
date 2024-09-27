@@ -45,3 +45,8 @@ switch (fruit){
     default:
         console.log('it actually smth diff');
 }
+
+
+//Ternary
+
+(fruit == 'orange') ? console.log(fruit) : console.log('thats something diff')
