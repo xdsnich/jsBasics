@@ -1,48 +1,47 @@
 //1 FUNCTION DECLARATION
-function AreaCalculator(length, width){
-    let area = length * width
+function AreaCalculator(length, width) {
+  let area = length * width;
 
-    console.log(area)
+  console.log(area);
 }
 
-function Rand(min, max){
-    return min + Math.random() * (max - min)
+function Rand(min, max) {
+  return min + Math.random() * (max - min);
 }
 
 //1.1 FUNCTION DECLARATION with COMMON value
 
-function sidesSum(length, width = 10){
-    let sum = (length + width) *2
-    console.log(sum)
+function sidesSum(length, width = 10) {
+  let sum = (length + width) * 2;
+  console.log(sum);
 
-    return sum
+  return sum;
 }
 
 //2 FUNCTION EXPRESSION
 
-const DOUBLE = function(num){
-    return num ** 2
-}
-
+const DOUBLE = function (num) {
+  return num ** 2;
+};
 
 //3 ARROW FUNCTION
 const POW = (num1, num2) => {
-    return num1 ** num2
-}
+  return num1 ** num2;
+};
 
 //==============================================================
 
 //#1
-AreaCalculator(10, 12)
-console.log(Rand(2, 10))
+AreaCalculator(10, 12);
+console.log(Rand(2, 10));
 
 //#1.1
-sidesSum(18)
+sidesSum(18);
 
 //#2
-let doubleNum = DOUBLE(10)
-console.log(doubleNum)
+let doubleNum = DOUBLE(10);
+console.log(doubleNum);
 
 //#3
-var numPow = POW(10, 5)
-console.log(numPow) 
+var numPow = POW(10, 5);
+console.log(numPow);

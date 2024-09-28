@@ -1,19 +1,18 @@
 //ARRAYS
-let nums = [1, 2, 3, 4, 5]
+let nums = [1, 2, 3, 4, 5];
 
-const cities = ['Kyiv', 'Lviv', 'Chernivtsi']
+const cities = ["Kyiv", "Lviv", "Chernivtsi"];
 
-console.log(nums, cities)
+console.log(nums, cities);
 
 //TUPLES
-let person  = ['John', '18', 'c#']
-
+let person = ["John", "18", "c#"];
 
 //================
 
-console.log(nums[2])
+console.log(nums[2]);
 
-cities[1] = 'Chernihiv'
+cities[1] = "Chernihiv";
 
-cities.push('Kursk')
-console.log(cities)
+cities.push("Kursk");
+console.log(cities);

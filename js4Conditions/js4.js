@@ -1,52 +1,47 @@
 //IF
-const  isAdult = (age) =>{
-    if(age >= 17){
-        return true
-    }
-    return false
-}
+const isAdult = (age) => {
+  if (age >= 17) {
+    return true;
+  }
+  return false;
+};
 
-let age = 17
-console.log(isAdult(age))
+let age = 17;
+console.log(isAdult(age));
 
 //ELSE
-let a = 1
+let a = 1;
 
-if(a == 2){
-    console.log(a)
-}
-else{
-    console.log(`a is ${a}`)
+if (a == 2) {
+  console.log(a);
+} else {
+  console.log(`a is ${a}`);
 }
 
 //ELSE IF
 
-if(age > 60){
-    console.log('ur too old')
+if (age > 60) {
+  console.log("ur too old");
+} else if (age <= 17) {
+  console.log("ur too young");
+} else {
+  console.log("perfect age to join 3 assault brigade");
 }
-else if( age <=17){
-    console.log('ur too young')
-}
-else{
-    console.log('perfect age to join 3 assault brigade')
-}
-
 
 //SWICH CASE
-let fruit = 'orange'
+let fruit = "orange";
 
-switch (fruit){
-    case 'apple':
-        console.log('its an apple');
-        break;
-    case 'banana':
-        console.log('its a banana');
-        break;
-    default:
-        console.log('it actually smth diff');
+switch (fruit) {
+  case "apple":
+    console.log("its an apple");
+    break;
+  case "banana":
+    console.log("its a banana");
+    break;
+  default:
+    console.log("it actually smth diff");
 }
-
 
 //Ternary
 
-(fruit == 'orange') ? console.log(fruit) : console.log('thats something diff')
+fruit == "orange" ? console.log(fruit) : console.log("thats something diff");
